@@ -81,7 +81,7 @@ resource myNIC 'Microsoft.Network/networkInterfaces@2023-05-01' = {
   }
 }
 
-resource myVM 'Microsoft.Compute/virtualMachines@2023-07-01' = {
+resource myVM 'Microsoft.Compute/virtualMachines@2025-04-01' = {
   name: vmName
   location: location
   properties: {
