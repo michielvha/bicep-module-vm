@@ -61,7 +61,7 @@ resource myPIP 'Microsoft.Network/publicIPAddresses@2025-01-01' = {
   }
 }
 
-resource myNIC 'Microsoft.Network/networkInterfaces@2023-05-01' = {
+resource myNIC 'Microsoft.Network/networkInterfaces@2025-01-01' = {
   name: nicName
   location:location
   properties:{
