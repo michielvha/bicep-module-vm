@@ -44,7 +44,7 @@ var vmName = 'vm-${envShortMap[environment]}-${locShort[location]}-${purpose}'
 var nicName = '${vmName}-nic'
 var pipName = '${vmName}-pip'
 
-resource myStorage 'Microsoft.Storage/storageAccounts@2023-01-01' = {
+resource myStorage 'Microsoft.Storage/storageAccounts@2025-06-01' = {
   name: bootStorage
   location: location
   sku: {
