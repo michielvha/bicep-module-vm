@@ -53,7 +53,7 @@ resource myStorage 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   kind: 'StorageV2'
 }
 
-resource myPIP 'Microsoft.Network/publicIPAddresses@2023-05-01' = {
+resource myPIP 'Microsoft.Network/publicIPAddresses@2025-01-01' = {
   name: pipName
   location:location
   properties: {
